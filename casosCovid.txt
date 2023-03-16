@@ -1,0 +1,32 @@
+11181135,Villa Alegre,omicron,si
+17260797,Molina,omicron,si
+7864161,Los Ángeles,delta,si
+11493204,Antofagasta,alfa,no
+11616559,Los Álamos,omicron,si
+16265388,Puyehue,delta,no
+18035659,Antártica,alfa,no
+12369273,Villarrica,alfa,no
+11996928,Antofagasta,delta,no
+17980479,Antofagasta,beta,no
+12990389,Lo Barnechea,alfa,no
+11919855,San Antonio,beta,no
+14735976,Andacollo,omicron,si
+9990223,Salamanca,beta,no
+12687485,Alto Biobío,beta,si
+14653582,Andacollo,beta,si
+13853150,Villa Alegre,beta,si
+10211284,Puyehue,omicron,no
+13494440,Los Álamos,omicron,no
+11679060,Villarrica,beta,si
+14554352,Antofagasta,omicron,no
+11496406,Antofagasta,delta,no
+13156164,Villarrica,omicron,no
+11190064,Villa Alegre,beta,si
+15700315,Los Álamos,delta,si
+16816384,Antártica,delta,no
+17171181,Punitaqui,delta,no
+9957902,Lo Barnechea,delta,si
+11400096,Lo Barnechea,alfa,si
+17844051,Lo Barnechea,beta,si
+11572663,Antofagasta,delta,no
+16731255,Andacollo,omicron,si

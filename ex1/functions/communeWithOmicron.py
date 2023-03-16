@@ -1,0 +1,2 @@
+def communeWithOmicron(casos):
+    pass
