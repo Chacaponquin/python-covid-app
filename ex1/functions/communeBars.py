@@ -25,10 +25,10 @@ def communeBars(casosEstudiar):
 
 
 def showBarGrafic(casos):
-    comunas, caseComunas = contCaseByCommune(casos)
+    comunas, caseComunas = communeBars(casos)
 
     # figsize es una tupla de dos elementos donde el primero indica el ancho y el segundo la altura
-    f, ax = plt.subplots(figsize=(18, 6))
+    f, ax = plt.subplots(figsize=(20, 6))
     # crear todas las barras del grafico
     plt.bar(comunas, caseComunas, label='Casos')
     plt.title('Cantidad de casos por comuna')
