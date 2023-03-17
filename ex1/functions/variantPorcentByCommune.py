@@ -1,2 +1,2 @@
-def variantPorcentByCommune(commune: str):
+def variantPorcentByCommune():
     pass

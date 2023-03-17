@@ -1,2 +1,2 @@
-def columnSumGreaterNine():
+def columnSumGreaterNine(matrix):
     pass

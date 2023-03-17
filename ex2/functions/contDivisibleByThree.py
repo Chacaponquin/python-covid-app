@@ -1,2 +1,2 @@
-def contDivisibleByThree(column: int):
+def contDivisibleByThree(matrix):
     pass

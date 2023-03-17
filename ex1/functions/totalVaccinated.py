@@ -1,2 +1,2 @@
-def totalVaccinated():
+def totalVaccinated(casos):
     pass
