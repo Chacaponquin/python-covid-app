@@ -1,2 +1,2 @@
-def variantPorcentByCommune():
+def variantPorcentByCommune(casos):
     pass
