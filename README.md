@@ -8,7 +8,11 @@
   pip install malplotlib
   ```
 
-## 🧑‍🚀 Tareas de José
+## Tareas
+
+Defición de las tareas de los intergrantes-sexys de este equipo
+
+### 🧑‍🚀 Tareas de José
 
 - ⭕ Método que devuelva las comunas en las que predomina la variante omicron.
   - **Ruta:** `ex1/functions/communeWithOmicron.py`
@@ -22,7 +26,7 @@
     - `casos`: arreglo de registros
 - ✅ Ser sexy
 
-## 🐈 Tareas de Amaya
+### 🐈 Tareas de Amaya
 
 - ⭕ Método que recibe por parámetros la posición de una columna. Debe retornar la cantidad de números que son divisibles y mayores que 3 de dicha columna.
   - **Ruta:** `ex2/functions/contDivisibleByThree.py`
@@ -36,7 +40,7 @@
   - **Ruta:** `ex2/functions/rowSort.py`
 - ✅ Ser sexy
 
-## 🦍 Tareas de Héctor
+### 🦍 Tareas de Héctor
 
 - ✅ Método que añade la información del archivo a la estructura de datos.
   - **Ruta:** `ex1/functions/readRegisters.py`
@@ -45,3 +49,35 @@
 - ✅ Método que calcule la cantidad de casos de cada comuna. Realice el gráfico de barras que represente esta información.
   - **Ruta:** `ex1/functions/communeBars.py`
 - ✅ Ser sexy
+
+## Minitutorial de Git
+
+Aqui se van a ver paso a paso lo que se debe hacer cada vez que se quiera subir un cambio al repositorio. **Como son contribuidores no deben hacer pull request ya que pueden cambiar directamente el código dell repositorio**
+
+- Paso 0 (**Opcional**):
+  Actualizar el código. Como estamos trabajando en la misma rama si quieren se puede actualizar el código por si otra persona puso algo nuevo se vea en el códgo que tienes en tu PC
+
+  ```bash
+  git pull
+  ```
+
+- Paso 1:
+  Añadir todos los cambios en los códigos existentes y archivos nuevos
+
+  ```bash
+  git add .
+  ```
+
+- Paso 2:
+  Crear el commit. Que es como un punto de control del código nuevo. **Opcionalmente puede tener un mensage**
+
+  ```bash
+  git commit -m "Quiero aprobar RA"
+  ```
+
+- Paso 3:
+  Pushear los cambios para que se suban a Github
+
+  ```bash
+  git push
+  ```

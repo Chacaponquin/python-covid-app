@@ -1,8 +1,8 @@
-from . import functions
+from functions import readRegisters, communeBars, communeWithOmicron, variantPorcentByCommune, totalVaccinated
 
 
-def Ex1():
+class Ex1:
     # crear registros
     registros = readRegisters()
 
-    showBarGrafic(registros)
+    communeBars(registros)

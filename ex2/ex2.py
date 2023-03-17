@@ -1,8 +1,7 @@
-from ex2.functions.askColumnsAndRows import askColumnsAndRows
-from ex2.functions.fillMatrix import fillMatrix
+from functions import rowSort, contDivisibleByThree, columnSumGreaterNine, askColumnsAndRows,fillMatrix
 
 
-def Ex2():
+class Ex2:
     matrix = askColumnsAndRows()
     fillMatrix(matrix)
     pass

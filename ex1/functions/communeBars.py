@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 
-def contCaseByCommune(casosEstudiar):
+def communeBars(casosEstudiar):
     # Arreglo de comunas
     comunas = []
     # Arreglo de cantidad de casos por comunas

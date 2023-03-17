@@ -1,1 +1,5 @@
-from . import communeBars, communeWithOmicron, readRegisters, totalVaccinated, variantPorcentByCommune
+from readRegisters import readRegisters
+from totalVaccinated import totalVaccinated
+from communeBars import communeBars
+from variantPorcentByCommune import variantPorcentByCommune
+from communeWithOmicron import communeWithOmicron
