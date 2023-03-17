@@ -1,6 +1,6 @@
 # Seminario de Python (Make with ❤ by José, Héctor, Amaya)
 
-<div style="display: flex; justify-content: center; width: 100%"><img src="https://res.cloudinary.com/chaca-sa/image/upload/v1679027493/328169508_122397193933692_2960493904923070018_n_vxtlez.jpg"/></div>
+<div style="display: flex; justify-content: center; width: 100%"><img src="https://res.cloudinary.com/chaca-sa/image/upload/v1679027493/328169508_122397193933692_2960493904923070018_n_vxtlez.jpg" style="width: 300px"/></div>
 
 ## Requisitos
 
