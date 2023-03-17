@@ -1,4 +1,4 @@
-def askColumnsAndRows() -> list[list[int]]:
+def askColumnsAndRows():
     rows = input('Inserte la cantidad de filas de la matriz: ')
     columns = input('Inserte la cantidad de columnas de la matriz: ')
 

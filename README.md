@@ -1,11 +1,11 @@
-# Seminario de Python (José, Héctor, Amaya)
+# Seminario de Python (Make with ❤ by José, Héctor, Amaya)
 
 ## Requisitos
 
 - Instalar `matplotlip`
 
   ```bash
-  pip install malplotlib
+  pip install mathplotlib
   ```
 
 ## Tareas

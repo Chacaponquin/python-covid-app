@@ -6,7 +6,7 @@ class Registro:
         self.estaVacunado = estaVacunado
 
 
-def createRegisters(registros) -> list[Registro]:
+def createRegisters(registros):
     # Arreglo con los casos
     casosEstudiar = []
 
@@ -28,7 +28,7 @@ def createRegisters(registros) -> list[Registro]:
     return casosEstudiar
 
 
-def readRegisters() -> list[Registro]:
+def readRegisters():
     # Abrir el archivo
     f = open('casosCovid.txt', 'r', encoding='utf8')
 

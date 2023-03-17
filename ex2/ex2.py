@@ -1,7 +1,10 @@
-from functions import rowSort, contDivisibleByThree, columnSumGreaterNine, askColumnsAndRows,fillMatrix
+from ex2.functions import rowSort, contDivisibleByThree, columnSumGreaterNine, askColumnsAndRows, fillMatrix
 
 
 class Ex2:
-    matrix = askColumnsAndRows()
-    fillMatrix(matrix)
-    pass
+    def __int__(self):
+        matrix = askColumnsAndRows()
+        fillMatrix(matrix)
+
+
+

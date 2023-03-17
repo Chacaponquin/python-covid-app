@@ -1,8 +1,10 @@
-from functions import readRegisters, communeBars, communeWithOmicron, variantPorcentByCommune, totalVaccinated
+from ex1.functions import readRegisters, communeBars, communeWithOmicron, variantPorcentByCommune, totalVaccinated
 
 
 class Ex1:
-    # crear registros
-    registros = readRegisters()
+    def __init__(self):
+        # crear registros
+        registros = readRegisters()
+        communeBars(registros)
 
-    communeBars(registros)
+
