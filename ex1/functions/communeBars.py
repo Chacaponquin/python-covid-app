@@ -7,6 +7,7 @@ def communeBars(casosEstudiar):
     # Arreglo de cantidad de casos por comunas
     contComunas = []
 
+    # buenas
     # Buscar la cantidad de casos que tiene cada comuna
     for registro in casosEstudiar:
         # Verificar que no se han contado los casos de esa comuna, para evitar repeticiones

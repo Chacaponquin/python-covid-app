@@ -4,7 +4,6 @@ from ex2.functions import rowSort, contDivisibleByThree, columnSumGreaterNine, a
 class Ex2:
     def __int__(self):
         self.matrix = askColumnsAndRows()
-
         self.printInitMessage()
 
     def printInitMessage(self):
