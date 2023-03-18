@@ -6,5 +6,9 @@ class Ex1:
         # crear registros
         registros = readRegisters()
         showBarGrafic(registros)
+        communeWithOmicron(registros)
+        totalVaccinated(registros)
+        variantPorcentByCommune(registros, "Antofagasta")
+
 
 
