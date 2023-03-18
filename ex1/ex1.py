@@ -3,6 +3,9 @@ from ex1.functions import readRegisters, showBarGrafic, communeWithOmicron, vari
 
 class Ex1:
     def __init__(self):
+        # crear registros
+        registros = readRegisters()
+        showBarGrafic(registros)
         # leer registros
         self.registros = readRegisters()
 
@@ -15,7 +18,8 @@ class Ex1:
         communeWithOmicron(self.registros)
 
     def incisoC(self):
-        variantPorcentByCommune(self.registros)
+        comuna = input("Inserte una comuna para saber la distribución de sus variantes:")
+        variantPorcentByCommune(self.registros,comuna)
 
     def incisoD(self):
         totalVaccinated(self.registros)
@@ -34,9 +38,6 @@ class Ex1:
                 self.incisoD()
             else:
                 print('ERROR')
-
-
-
 
 
 

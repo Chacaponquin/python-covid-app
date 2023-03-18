@@ -16,13 +16,15 @@ Defición de las tareas de los intergrantes-sexys de este equipo
 
 ### 🧑‍🚀 Tareas de José
 
-- ⭕ Método que devuelva las comunas en las que predomina la variante omicron.
+- ✅ Método que devuelva las comunas en las que predomina la variante omicron.
   - **Ruta:** `ex1/functions/communeWithOmicron.py`
   - **Parámetros:**
     - `casos`: arreglo de registros
-- ⭕ Método que ingresando una comuna, se debe desplegar el porcentaje de cada variante.
+- ✅ Método que ingresando una comuna, se debe desplegar el porcentaje de cada variante.
   - **Ruta:** `ex1/functions/variantPorcentByCommune.py`
-- ⭕ Método que calcule la cantidad de personas vacunadas en total.
+  - **Parámetros:**
+    - `comuna`: comuna
+- ✅ Método que calcule la cantidad de personas vacunadas en total.
   - **Ruta:** `ex1/functions/totalVaccinated.py`
   - **Parámetros:**
     - `casos`: arreglo de registros
