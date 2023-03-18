@@ -30,3 +30,4 @@ def variantPorcentByCommune(casos,comuna):
         plt.show()
     else:
         print("La comuna no exite o no presenta casos")
+
