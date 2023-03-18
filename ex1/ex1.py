@@ -6,9 +6,6 @@ class Ex1:
         # crear registros
         registros = readRegisters()
         showBarGrafic(registros)
-        communeWithOmicron(registros)
-        totalVaccinated(registros)
-        variantPorcentByCommune(registros, "Antofagasta")
         # leer registros
         self.registros = readRegisters()
 
@@ -21,7 +18,8 @@ class Ex1:
         communeWithOmicron(self.registros)
 
     def incisoC(self):
-        variantPorcentByCommune(self.registros)
+        comuna = input("Inserte una comuna para saber la distribución de sus variantes:")
+        variantPorcentByCommune(self.registros,comuna)
 
     def incisoD(self):
         totalVaccinated(self.registros)
