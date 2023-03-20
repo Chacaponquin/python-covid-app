@@ -3,11 +3,16 @@
 # Seminario de Python (Make with ❤ by José, Héctor, Amaya)
 
 ## Requisitos
+- Activar con **conda** el entorno virtual en caso de tenerlo
+  
+  ```bash
+  conda activate <nombre_entorno>
+  ```
 
-- Instalar `matplotlip`
+- Instalar las librerias (`matplotlib` y `rich`)
 
   ```bash
-  pip install mathplotlib
+  pip install -r requirements.txt
   ```
 
 ## Tareas
