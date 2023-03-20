@@ -58,7 +58,7 @@ Defición de las tareas de los intergrantes-sexys de este equipo
 
 Aqui se van a ver paso a paso lo que se debe hacer cada vez que se quiera subir un cambio al repositorio. **Como son contribuidores no deben hacer pull request ya que pueden cambiar directamente el código dell repositorio**
 
-- Paso 0 (**Opcional**):
+- Paso 0:
   Actualizar el código. Como estamos trabajando en la misma rama si quieren se puede actualizar el código por si otra persona puso algo nuevo se vea en el códgo que tienes en tu PC
 
   ```bash

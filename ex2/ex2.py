@@ -1,4 +1,5 @@
 from ex2.functions import rowSort, contDivisibleByThree, columnSumGreaterNine, askColumnsAndRows, fillMatrix
+from rich import print as rprint
 
 
 class Ex2:
@@ -7,8 +8,8 @@ class Ex2:
         self.printInitMessage()
 
     def printInitMessage(self):
-        while(True):
-            inciso = input('Inserte un inciso entre a, b, c, d: ')
+        while True:
+            inciso = input('\n>>> Inserte un inciso entre a, b, c, d: ')
 
             if inciso == 'a':
                 self.incisoA()
@@ -19,7 +20,7 @@ class Ex2:
             elif inciso == 'd':
                 self.incisoD()
             else:
-                print('ERROR')
+                rprint('[bold red]No existe ese inciso')
 
     def incisoA(self):
         fillMatrix(self.matrix)
@@ -32,6 +33,3 @@ class Ex2:
 
     def incisoD(self):
         rowSort(self.matrix)
-
-
-

@@ -1,4 +1,5 @@
 from ex1.functions import readRegisters, showBarGrafic, communeWithOmicron, variantPorcentByCommune, totalVaccinated
+from rich import print as rprint
 
 
 class Ex1:
@@ -16,15 +17,15 @@ class Ex1:
 
     def incisoC(self):
         comuna = input(
-            "Inserte una comuna para saber la distribución de sus variantes:")
+            ">>> Inserte una comuna para saber la distribución de sus variantes: ")
         variantPorcentByCommune(self.registros, comuna)
 
     def incisoD(self):
         totalVaccinated(self.registros)
 
     def printInitMessage(self):
-        while(True):
-            inciso = input('Eliga un inciso entre: a, b, c, d: ')
+        while True:
+            inciso = input('\n>>> Eliga un inciso entre: a, b, c, d: ')
 
             if inciso == 'a':
                 self.incisoA()
@@ -35,4 +36,4 @@ class Ex1:
             elif inciso == 'd':
                 self.incisoD()
             else:
-                print('ERROR')
+                rprint('[bold red]No existe ese inciso')

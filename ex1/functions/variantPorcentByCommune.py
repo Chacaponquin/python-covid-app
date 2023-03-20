@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
+from rich import print as rprint
 
 
-def variantPorcentByCommune(casos,comuna):
+def variantPorcentByCommune(casos, comuna):
     # Arreglo de variantes
     variantes = []
     # Arreglo para la cantidad de casos por variante
@@ -23,11 +24,10 @@ def variantPorcentByCommune(casos,comuna):
                 variantes.append(registro.tipoVariante)
                 numero_casos.append(1)
 
-    #Verificar si existen variantes, en caso de existir, construir gráfico de pastel
+    # Verificar si existen variantes, en caso de existir, construir gráfico de pastel
     if len(variantes) > 0:
         plt.pie(numero_casos, labels=variantes, autopct="%0.2f %%")
         plt.axis("equal")
         plt.show()
     else:
-        print("La comuna no exite o no presenta casos")
-
+        rprint("[bold red]La comuna no exite o no presenta casos")
