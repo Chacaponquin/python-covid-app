@@ -1,6 +1,6 @@
 def askColumnsAndRows():
-    rows = input('Inserte la cantidad de filas de la matriz: ')
-    columns = input('Inserte la cantidad de columnas de la matriz: ')
+    rows = input('>>> Inserte la cantidad de filas de la matriz: ')
+    columns = input('>>> Inserte la cantidad de columnas de la matriz: ')
 
     matrix = []
 

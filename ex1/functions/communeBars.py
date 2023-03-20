@@ -33,6 +33,13 @@ def showBarGrafic(casos):
     # crear todas las barras del grafico
     plt.bar(comunas, caseComunas, label='Casos')
     plt.title('Cantidad de casos por comuna')
+
+    plt.rcParams["figure.autolayout"] = True
+
+    # hacer que la ventana ocupe toda la pantalla
+    # manager = plt.get_current_fig_manager()
+    # manager.full_screen_toggle()
+
     # configuracion del tamaño de la fuente
     ax.legend(fontsize=14)
 

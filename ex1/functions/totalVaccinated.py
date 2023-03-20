@@ -1,3 +1,4 @@
+from rich import print as rprint
 def totalVaccinated(casos):
     # Variable para almacenar el total de personas vacunadas
     vacunados = 0
@@ -7,5 +8,5 @@ def totalVaccinated(casos):
             vacunados= vacunados + 1
 
 
-    print (f'La cantidad de vacunados es de {vacunados}')
+    rprint(f'El total de vacunados es: [blue]{vacunados}')
 
