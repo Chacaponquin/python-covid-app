@@ -2,7 +2,14 @@
 
 # Seminario de Python (Make with ❤ by José, Héctor, Amaya)
 
-## Requisitos
+
+## Uso
+- Crear un entorno virtual **en caso de haber creado uno**
+ 
+  ```bash
+  conda create -n <nombre_entorno>
+  ```
+
 - Activar con **conda** el entorno virtual en caso de tenerlo
   
   ```bash
