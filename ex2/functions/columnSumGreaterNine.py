@@ -12,4 +12,3 @@ def columnSumGreaterNine(matrix):
                 print('> 9')
             elif columnSum < 9:
                 print(' < 9')
-    pass
