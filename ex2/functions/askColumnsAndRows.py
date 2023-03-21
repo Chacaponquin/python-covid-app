@@ -9,13 +9,13 @@ def askColumnsAndRows():
         if(columns.isnumeric() and int(columns) > 0):
             matrix = []
 
-            for i in range(int(columns)):
-                newColumn = []
+            for i in range(int(rows)):
+                newRow = []
 
-                for j in range(int(rows)):
-                    newColumn.append(0)
+                for j in range(int(columns)):
+                    newRow.append(0)
 
-                matrix.append(newColumn)
+                matrix.append(newRow)
 
             return matrix
         else:
