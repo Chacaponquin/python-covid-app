@@ -1,15 +1,29 @@
+from rich import print as rprint
+
 def askColumnsAndRows():
     rows = input('>>> Inserte la cantidad de filas de la matriz: ')
-    columns = input('>>> Inserte la cantidad de columnas de la matriz: ')
 
-    matrix = []
+    if(rows.isnumeric() and int(rows) > 0):
+        columns = input('>>> Inserte la cantidad de columnas de la matriz: ')
 
-    for i in range(int(columns)):
-        newColumn = []
+        if(columns.isnumeric() and int(columns) > 0):
+            matrix = []
 
-        for i in range(int(rows)):
-            newColumn.append(0)
+            for i in range(int(columns)):
+                newColumn = []
 
-        matrix.append(newColumn)
+                for j in range(int(rows)):
+                    newColumn.append(0)
 
-    return matrix
+                matrix.append(newColumn)
+
+            return matrix
+        else:
+            rprint('[bold red]El número de columnas debe ser mayor que 0')
+    else:
+        rprint('[bold red]El número de filas debe ser mayor que 0')
+
+
+
+
+
