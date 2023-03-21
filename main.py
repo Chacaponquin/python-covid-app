@@ -9,8 +9,9 @@ from ex2.ex2 import Ex2
 
 class Main:
     def __int__(self):
-        while True:
-            ex = input("\n>>> Qué ejercicio desea ejecutar?: ")
+        flag = False
+        while not flag:
+            ex = input("\n>>> Qué ejercicio desea ejecutar?, o escribe cerrar para parar el programa: ")
 
             if ex == '1':
                 self.printEx1Message()
@@ -18,6 +19,8 @@ class Main:
             elif ex == '2':
                 self.printEx2Message()
                 Ex2().__int__()
+            elif ex == 'cerrar':
+                flag = True
             else:
                 rprint('[bold red]Debe seleccionar uno de los dos ejercicios')
 

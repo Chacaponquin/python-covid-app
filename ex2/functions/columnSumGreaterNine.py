@@ -1,6 +1,5 @@
 from rich import print as rprint
 def columnSumGreaterNine(matrix):
-
     if len(matrix) == 0:
         rprint('La matriz esta vacia. Llenar antes de llevar a cabo esta operacion.')
     else:
@@ -12,9 +11,4 @@ def columnSumGreaterNine(matrix):
             if columnSum > 9:
                 rprint('> 9')
             elif columnSum < 9:
-<<<<<<< HEAD
                 print(' < 9')
-=======
-                rprint(' < 9')
-    pass
->>>>>>> c088db5ee9ef4008183f9b01bd69c189aaa9a128

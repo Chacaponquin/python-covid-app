@@ -9,6 +9,24 @@ class Ex1:
 
         self.printInitMessage()
 
+    def printInitMessage(self):
+        flag = False
+        while not flag:
+            inciso = input('\n>>> Inserte un inciso entre: a, b, c, d, o escribe atras para ir al menú principal: ')
+
+            if inciso == 'a':
+                self.incisoA()
+            elif inciso == 'b':
+                self.incisoB()
+            elif inciso == 'c':
+                self.incisoC()
+            elif inciso == 'd':
+                self.incisoD()
+            elif inciso == 'atras':
+                flag = True
+            else:
+                rprint('[bold red]No existe esta opción')
+
     def incisoA(self):
         showBarGrafic(self.registros)
 
@@ -23,17 +41,4 @@ class Ex1:
     def incisoD(self):
         totalVaccinated(self.registros)
 
-    def printInitMessage(self):
-        while True:
-            inciso = input('\n>>> Eliga un inciso entre: a, b, c, d: ')
 
-            if inciso == 'a':
-                self.incisoA()
-            elif inciso == 'b':
-                self.incisoB()
-            elif inciso == 'c':
-                self.incisoC()
-            elif inciso == 'd':
-                self.incisoD()
-            else:
-                rprint('[bold red]No existe ese inciso')

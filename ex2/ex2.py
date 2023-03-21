@@ -8,8 +8,9 @@ class Ex2:
         self.printInitMessage()
 
     def printInitMessage(self):
-        while True:
-            inciso = input('\n>>> Inserte un inciso entre a, b, c, d: ')
+        flag = False
+        while not flag:
+            inciso = input('\n>>> Inserte un inciso entre a, b, c, d; o escribe atras para ir al menú principal: ')
 
             if inciso == 'a':
                 self.incisoA()
@@ -19,8 +20,10 @@ class Ex2:
                 self.incisoC()
             elif inciso == 'd':
                 self.incisoD()
+            elif inciso == 'atras':
+                flag = True
             else:
-                rprint('[bold red]No existe ese inciso')
+                rprint('[bold red]No exista opción')
 
     def incisoA(self):
         fillMatrix(self.matrix)
