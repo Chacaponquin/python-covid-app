@@ -4,7 +4,7 @@ from rich.table import Table
 def fillMatrix(matrix):
     cloneMatrix = matrix
 
-    rprint('\n[yellow bold]Advertencia: Inserte los números que desee separados por coma. En caso de escribir menos números que el tamaño de la fila el resto serán rellenados con 0\n')
+    rprint('\n[yellow bold]Advertencia: \n- Inserte los números que desee separados por coma. \n- En caso de escribir menos números que el tamaño de la fila el resto serán rellenados con 0\n')
 
     for fila in range(len(matrix)):
         numbers = input(f'>>> Inserte los números de la fila {fila}: ')
