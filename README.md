@@ -44,15 +44,15 @@ Defición de las tareas de los intergrantes-sexys de este equipo
 
 ### 🐈 Tareas de Amaya
 
-- ⭕ Método que recibe por parámetros la posición de una columna. Debe retornar la cantidad de números que son divisibles y mayores que 3 de dicha columna.
+- ✅ Método que recibe por parámetros la posición de una columna. Debe retornar la cantidad de números que son divisibles y mayores que 3 de dicha columna.
   - **Ruta:** `ex2/functions/contDivisibleByThree.py`
   - **Parámetros:**
     - `matrix`: matriz con la que se va a trabajar
-- ⭕ Método que obtenga la suma de la columna y que despliegue si esta suma es mayor o menor que 9. Debe hacerlo para todas las columnas de la matriz.
+- ✅ Método que obtenga la suma de la columna y que despliegue si esta suma es mayor o menor que 9. Debe hacerlo para todas las columnas de la matriz.
   - **Ruta:** `ex2/functions/columnSumGreaterNine.py`
   - **Parámetros:**
     - `matrix`: matriz con la que se va a trabajar
-- ⭕ Método que recibe por parámetros la posición de una fila. Debe retornar la fila con los números ordenados de mayor a menor.
+- ✅ Método que recibe por parámetros la posición de una fila. Debe retornar la fila con los números ordenados de mayor a menor.
   - **Ruta:** `ex2/functions/rowSort.py`
 - ✅ Ser sexy
 
