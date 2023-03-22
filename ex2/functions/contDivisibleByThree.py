@@ -2,17 +2,17 @@ from rich import print as rprint
 
 def contDivisibleByThree(matrix):
     if len(matrix) == 0:
-        rprint('La matriz esta vacia. Llenar antes de llevar a cabo esta operacion.')
+        rprint('La matriz esta vacía. Llenar antes de llevar a cabo esta operación.')
     else:
-        columnIndex = int(input("Inserte la posicion de la columna a analizar: "))
+        columnIndex = int(input("Inserte la posición de la columna a analizar: "))
 
         while columnIndex < 0 or columnIndex > len(matrix[0])-1:
             rprint('El indice no debe ser menor que cero o mayor que '+str(len(matrix[0])-1))
-            columnIndex = columnIndex = int(input("Inserte la posicion de la columna a analizar: "))
+            columnIndex = int(input("Inserte la posición de la columna a analizar: "))
 
         count = countNumbers(matrix, columnIndex)
-        rprint('Cantidad de numeros divisibles y mayores que 3 en la columna: ' + str(count))
-    pass
+        rprint('Cantidad de números divisibles y mayores que 3 en la columna: ' + str(count))
+
 
 
 def countNumbers(matrix, index):
