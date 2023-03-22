@@ -9,7 +9,6 @@ def rowSort(matrix):
             rowIndex = input(f'Inserte el índice de la fila a ordenar (de 0 a {len(matrix)-1}): ')
 
             if rowIndex.isnumeric() and 0 <= int(rowIndex) < len(matrix):
-
                 sortedRow = sortRowGreaterToLower(matrix, int(rowIndex))
                 rprint(f'La fila ordenada de mayor a menor es: [blue]{sortedRow}')
                 complete = True

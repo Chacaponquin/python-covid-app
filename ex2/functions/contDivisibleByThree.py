@@ -7,7 +7,7 @@ def contDivisibleByThree(matrix):
         complete = False
         while not complete:
 
-            columnIndex = input(f'Inserte el índice de la columna a analizar (de 0 a {len(matrix[0])-1}): ')
+            columnIndex = input(f'>>> Inserte el índice de la columna a analizar (de 0 a {len(matrix[0]) - 1}): ')
 
             if columnIndex.isnumeric() and 0 <= int(columnIndex) < len(matrix[0]):
 

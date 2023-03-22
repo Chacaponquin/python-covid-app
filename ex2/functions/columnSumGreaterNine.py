@@ -9,7 +9,7 @@ def columnSumGreaterNine(matrix):
             for j in range(len(matrix)):
                 columnSum += matrix[j][i]
 
-            rprint(f'Suma de la columna de índice {i}: {columnSum}', end = ' ')
+            rprint(f'- Suma de la columna de índice {i}: {columnSum}', end=' ')
             if columnSum > 9:
                 rprint('[blue]> 9')
             elif columnSum < 9:
