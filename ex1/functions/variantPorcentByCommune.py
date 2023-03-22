@@ -50,4 +50,4 @@ def variantPorcentByCommune(casos, comuna):
 
         rprint(table)
     else:
-        rprint("[bold red]La comuna no exite o no presenta casos")
+        rprint("[bold red]La comuna no existe o no presenta casos")

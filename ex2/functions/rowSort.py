@@ -1,16 +1,24 @@
 from rich import print as rprint
 def rowSort(matrix):
-    if len(matrix) == 0:
-        rprint('La matriz esta vacia. Llenar antes de llevar a cabo esta operacion')
+
+    if len(matrix) > 0:
+
+        complete = False
+        while not complete:
+
+            rowIndex = input(f'Inserte el índice de la fila a ordenar (de 0 a {len(matrix)-1}): ')
+
+            if rowIndex.isnumeric() and 0 <= int(rowIndex) < len(matrix):
+
+                sortedRow = sortRowGreaterToLower(matrix, int(rowIndex))
+                rprint(f'La fila ordenada de mayor a menor es: [blue]{sortedRow}')
+                complete = True
+
+            else:
+                rprint(f'[bold red]{rowIndex} no es un número de 0 a {len(matrix)-1}.')
+
     else:
-        rowIndex = int(input('Inserte el indice de la fila a ordenar: '))
-
-        while rowIndex < 0 or rowIndex > len(matrix)-1:
-            rprint('El indice no puede ser menor que cero o mayor que ' + str(len(matrix) - 1))
-            rowIndex = int(input('Inserte el indice de la fila a ordenar: '))
-
-        rprint('La fila ordenada de mayor a menor es: ' + str(sortRowGreaterToLower(matrix, rowIndex)))
-
+        rprint('[bold red]La matriz está vacía. Debe rellenarla antes de ejecutar este inciso.')
 
 def sortRowGreaterToLower(matrix, index):
     return sorted(matrix[index], key=None, reverse=True)
