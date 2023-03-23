@@ -8,7 +8,7 @@ class Main:
     def __int__(self):
         flag = False
         while not flag:
-            ex = input("\n>>> Qué ejercicio desea ejecutar?, o escribe cerrar para parar el programa: ")
+            ex = input("\n>>> Qué ejercicio desea ejecutar?, o escribe cerrar para parar el programa: ").strip()
 
             if ex == '1':
                 self.printEx1Message()
