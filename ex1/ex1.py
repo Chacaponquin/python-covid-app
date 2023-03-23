@@ -7,6 +7,7 @@ class Ex1:
         # crear registros
         self.registros = readRegisters()
 
+    def start(self):
         self.printInitMessage()
 
     def printInitMessage(self):

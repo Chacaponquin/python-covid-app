@@ -4,6 +4,9 @@ from rich import print as rprint
 
 class Ex2:
     def __int__(self):
+        self.matrix = []
+
+    def start(self):
         self.matrix = askColumnsAndRows()
         self.printInitMessage()
 

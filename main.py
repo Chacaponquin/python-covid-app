@@ -1,7 +1,6 @@
 from rich import print as rprint
 from rich.table import Table
 
-
 from ex1.ex1 import Ex1
 from ex2.ex2 import Ex2
 
@@ -15,10 +14,10 @@ class Main:
 
             if ex == '1':
                 self.printEx1Message()
-                Ex1().__init__()
+                Ex1().start()
             elif ex == '2':
                 self.printEx2Message()
-                Ex2().__int__()
+                Ex2().start()
             elif ex == 'cerrar':
                 flag = True
             else:
