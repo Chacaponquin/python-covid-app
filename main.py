@@ -4,8 +4,6 @@ from rich.table import Table
 from ex1.ex1 import Ex1
 from ex2.ex2 import Ex2
 
-
-
 class Main:
     def __int__(self):
         flag = False
